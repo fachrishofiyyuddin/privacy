@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy - Prakerin Tracer by SKAHIDA</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Lottie Animation -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(-45deg, #ff4c4c, #ffd700, #4169e1, #32cd32, #ff69b4, #00ced1);
+      background-size: 400% 400%;
+      animation: rainbowBG 15s ease infinite;
+    }
+
+    @keyframes rainbowBG {
+      0% { background-position: 0% 50%; }
+      25% { background-position: 50% 50%; }
+      50% { background-position: 100% 50%; }
+      75% { background-position: 50% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    h1, h2 {
+      font-family: 'Bungee', sans-serif;
+    }
+
+    .card {
+      backdrop-filter: blur(12px);
+      background: rgba(255, 255, 255, 0.75);
+      border: 3px solid transparent;
+      border-radius: 1rem;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px) scale(1.01);
+      border-image: linear-gradient(to right, #ff4c4c, #ffd700, #4169e1) 1;
+    }
+
+    .section-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      display: inline-block;
+      margin-bottom: 0.75rem;
+      padding: 0.25rem 1rem;
+      border-radius: 0.5rem;
+    }
+
+    .bg-roblox-red { background-color: #ff4c4c; color: white; }
+    .bg-roblox-yellow { background-color: #ffd700; color: black; }
+    .bg-roblox-blue { background-color: #4169e1; color: white; }
+  </style>
+</head>
+<body class="min-h-screen text-black">
+
+  <!-- Header -->
+  <div class="flex flex-col items-center justify-center text-center pt-12 px-4">
+    <lottie-player src="lottie/privacy.json"
+                   background="transparent"
+                   speed="1"
+                   style="width: 200px; height: 200px;"
+                   loop autoplay>
+    </lottie-player>
+    <h1 class="text-5xl mb-2 text-white drop-shadow-lg">Privacy Policy</h1>
+    <p class="text-sm text-white drop-shadow-md">Effective Date: <strong>May 31, 2025</strong></p>
+    <a href="file/privacy_policy_skahida.pdf" class="mt-4 inline-block bg-white text-black font-semibold px-6 py-2 rounded-full shadow hover:bg-yellow-300 transition">Download PDF</a>
+  </div>
+
+  <!-- Content -->
+  <main class="max-w-3xl mx-auto mt-10 px-4">
+    <div class="grid gap-8">
+
+      <div class="card p-6">
+        <h2 class="section-title bg-roblox-red">1. Information We Collect</h2>
+        <p>We collect data such as your name, student ID (NIS), school, location, and activities while using the Prakerin Tracer app.</p>
+      </div>
+
+      <div class="card p-6">
+        <h2 class="section-title bg-roblox-yellow">2. How We Use the Information</h2>
+        <ul class="list-disc ml-6 space-y-1 text-left">
+          <li>To track students' internship (Prakerin) activities</li>
+          <li>To provide reports to schools</li>
+          <li>To improve features and user experience</li>
+        </ul>
+      </div>
+
+      <div class="card p-6">
+        <h2 class="section-title bg-roblox-blue">3. Data Storage and Security</h2>
+        <p>Your data is stored on secure servers with technical and administrative safeguards in place.</p>
+      </div>
+
+      <div class="card p-6">
+        <h2 class="section-title bg-roblox-red">4. Information Sharing</h2>
+        <p>We do not share your data without your permission, except for legal or school administrative purposes.</p>
+      </div>
+
+      <div class="card p-6">
+        <h2 class="section-title bg-roblox-yellow">5. User Rights</h2>
+        <p>You have the right to access, update, or delete your personal data at any time.</p>
+      </div>
+
+      <div class="card p-6">
+        <h2 class="section-title bg-roblox-blue">6. Policy for Minors</h2>
+        <p>This app is intended for vocational high school (SMK) students under school supervision. We do not collect data from children under 13 without parental consent.</p>
+      </div>
+
+      <div class="card p-6">
+        <h2 class="section-title bg-roblox-red">7. Policy Changes</h2>
+        <p>We may update this policy. Notifications will be provided through our app or official website.</p>
+      </div>
+
+      <div class="card p-6">
+        <h2 class="section-title bg-roblox-yellow">8. Contact Us</h2>
+        <p>
+          SKAHIDA Codeworks<br>
+          Email: <a href="mailto:alhidayahsmknu@gmail.com" class="underline">alhidayahsmknu@gmail.com</a><br>
+          WhatsApp: <a href="https://wa.me/6287897315639" class="underline">+62 878-9731-5639</a>
+        </p>
+      </div>
+
+    </div>
+
+    <footer class="text-center text-white text-xs mt-10 drop-shadow-lg">
+      &copy; 2025 Prakerin Tracer - SKAHIDA Codeworks. All rights reserved.
+    </footer>
+  </main>
+
+</body>
+</html>
